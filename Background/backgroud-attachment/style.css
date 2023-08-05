@@ -1,0 +1,18 @@
+body{
+    background-image: url(Laptop.jpg);
+    display: flex;
+    flex-direction: column;
+    background-attachment: fixed;
+    }
+    /*attachment permite controlar a imagem de fundo se ela deve ou não se mover 
+    quando a pagina for rolada para baixo*/
+    /* fixed ou scroo (normal)*/
+
+   #login{
+        background-color: rgba(255, 255, 255, 0.4);
+        backdrop-filter: blur(5px);    /*permite criar um efeito grafico especial em um fundo ex: opacidade*/
+        padding: 60px;
+        margin: 30px;
+        font-weight: bold;
+    }
+ 

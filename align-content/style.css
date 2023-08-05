@@ -1,0 +1,18 @@
+
+/* align-content: ajuste e alinhamento de linhas de itens */
+
+
+
+#container{
+    width: 200px;
+    height: 350px;
+    border: 1px solid #c3c3c3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: stretch; 
+}     /* center, flex-start, flex-end, space-between, space-around, space-evenly*/
+
+#container > div{
+    width: 70px;
+    height: 70px;
+}

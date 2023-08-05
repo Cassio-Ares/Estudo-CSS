@@ -1,0 +1,12 @@
+div {
+    position: relative;
+    height: 60px;
+    width: 60px;
+    background-color: red;
+    transform: rotateY(180deg);
+  }
+
+  #invi {
+    backface-visibility: visible; /* controla se é o não possivel ver as costas de um elemento*/
+  }
+    /*visible, hidden comando util em animações*/

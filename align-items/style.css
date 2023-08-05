@@ -1,0 +1,13 @@
+
+/* align-items: ajuste e alinhamento de itens dentro de um container */
+
+#container{
+    width: 200px;
+    height: 350px;
+    border: 1px solid #c3c3c3;
+    display: flex;  /*fez com que os div ocupacem toda a tela */
+    align-items: center; /*fez com que os div ocupacem somente o centro da tela */
+         /* stretch, flex-start, flex-end, */
+
+}
+

@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#prim{
+    margin-bottom: 40px;
+    border: 2px solid ;
+    padding: 10px;
+    background-color: aqua;
+    background-clip: border-box;
+}
+
+#seg{
+    padding: 40px;
+    border: 2px solid ;
+    background-color: blueviolet;
+    background-clip: content-box;
+}
+
+/* clip permite ajustar o tamanho de um background dentro de uma div
+border-box, padding-box, content-box*/

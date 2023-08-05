@@ -1,0 +1,22 @@
+
+/* align-items: ajuste e alinhamento de itens dentro de um container */
+
+#container{
+  width: 60%;
+  aspect-ratio: 3/2;
+  border: solid black 1px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+    
+}
+
+#container > div{
+    width: 70px;
+    height: 70px;
+}
+
+#myDiv{
+    align-self: end; /*permite mover um elemento isolado */
+    /* stretch, flex-start, center */   
+}
+
